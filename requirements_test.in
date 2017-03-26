@@ -1,0 +1,10 @@
+-e .
+-e git+https://github.com/FalconSocial/pre-commit-python-sorter.git@b57843b0b874df1d16eb0bef00b868792cb245c2#egg=pre-commit-python-sort
+coverage
+flake8
+isort
+pep8-naming
+pip-tools
+pytest
+pre-commit
+tox

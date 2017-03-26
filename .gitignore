@@ -1,0 +1,9 @@
+# Distribution / packaging
+.Python
+.cache
+.tox
+*.egg
+*.egg-info
+env/
+build/
+dist/

@@ -1,0 +1,135 @@
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : DD/MM/YYYY
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [92.208.242.51 REQUEST] >> afnic.fr
+%%
+%% RL Net [##########] - RL IP [#########.]
+%%
+
+domain:      afnic.fr
+status:      ACTIVE
+hold:        NO
+holder-c:    AFNI6-FRNIC
+admin-c:     NFC1-FRNIC
+tech-c:      GR1378-FRNIC
+tech-c:      NFC1-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL1-FRNIC
+dsl-id:      SIGN3-FRNIC
+registrar:   GIP RENATER
+Expiry Date: 10/12/2017
+created:     11/12/2001
+last-update: 10/12/2016
+source:      FRNIC
+
+ns-list:     NSL1-FRNIC
+nserver:     ns1.nic.fr [192.134.4.1 2001:67c:2218:2::4:1]
+nserver:     ns2.nic.fr [192.93.0.4 2001:660:3005:1::1:2]
+nserver:     ns3.nic.fr [192.134.0.49 2001:660:3006:1::1:1]
+source:      FRNIC
+
+ds-list:     SIGN3-FRNIC
+key1-tag:    42275
+key1-algo:   8 [RSASHA256]
+key1-dgst-t: 2 [SHA-256]
+key1-dgst:   4E670A0DA32DA1950D99AC3F42F82D3E69FD92EC0BE8A0BF6F599BB1AE395955
+source:      FRNIC
+
+registrar:   GIP RENATER
+type:        Isp Option 1
+address:     23-25 Rue Daviel
+address:     PARIS
+country:     FR
+phone:       +33 1 53 94 20 30
+fax-no:      +33 1 53 94 20 31
+e-mail:      domaine@renater.fr
+website:     http://www.renater.fr
+anonymous:   NO
+registered:  01/01/1998
+source:      FRNIC
+
+nic-hdl:     NFC1-FRNIC
+type:        ROLE
+contact:     NIC France Contact
+address:     AFNIC
+address:     immeuble international
+address:     2, rue Stephenson
+address:     Montigny le Bretonneux
+address:     78181 Saint Quentin en Yvelines Cedex
+country:     FR
+phone:       +33 1 39 30 83 00
+e-mail:      hostmaster@nic.fr
+admin-c:     NFC1-FRNIC
+tech-c:      PL12-FRNIC
+tech-c:      JP-FRNIC
+tech-c:      MS1887-FRNIC
+tech-c:      VL-FRNIC
+tech-c:      PR1249-FRNIC
+tech-c:      PV827-FRNIC
+tech-c:      GO661-FRNIC
+tech-c:      MS-FRNIC
+tech-c:      AI1-FRNIC
+registrar:   AFNIC registry
+changed:     23/08/2005 hostmaster@nic.fr
+anonymous:   NO
+obsoleted:   NO
+source:      FRNIC
+
+nic-hdl:     GR1378-FRNIC
+type:        ROLE
+contact:     GIP RENATER
+address:     GIP RENATER
+address:     Ensam
+address:     151, boulevard de l'Hopital
+address:     75013 Paris
+country:     FR
+phone:       +33 1 53 94 20 30
+fax-no:      +33 1 53 94 20 31
+e-mail:      rensvp@renater.fr
+trouble:     Information: http://www.Renater.fr/
+trouble:     abuse reports, ... mailto:CertSVP@Renater.fr
+trouble:     questions: mailto:RenSVP@Renater.Fr
+admin-c:     DV321-FRNIC
+tech-c:      FS65-FRNIC
+tech-c:      BT261-FRNIC
+tech-c:      MD5336-FRNIC
+tech-c:      SJ94-FRNIC
+tech-c:      ED168-FRNIC
+tech-c:      CT1053-FRNIC
+tech-c:      SEH1-FRNIC
+tech-c:      FXA1-FRNIC
+registrar:   GIP RENATER
+changed:     08/11/2005 rensvp@renater.fr
+anonymous:   NO
+obsoleted:   NO
+source:      FRNIC
+
+nic-hdl:     AFNI6-FRNIC
+type:        ORGANIZATION
+contact:     ASS FRANC NOMMAGE INTERNET EN COOP
+address:     Internet en Cooperation
+address:     2, rue Stephenson
+address:     Montigny le Bretonneux
+address:     78181 Saint Quentin en Yvelines
+country:     FR
+phone:       +33 1 39 30 83 00
+fax-no:      +33 1 39 30 83 01
+e-mail:      contact@nic.fr
+registrar:   GIP RENATER
+changed:     12/06/2012 nic@nic.fr
+anonymous:   NO
+obsoleted:   NO
+eligstatus:  ok
+eligsource:  REGISTRY
+eligdate:    11/06/2012 18:34:06
+source:      FRNIC
+
