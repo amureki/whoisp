@@ -6,7 +6,7 @@
 
 
 Python wrapper for bash `whois` command.
-Supports Python 2.7, 3.5, 3.6
+Supports Python 3.5, 3.6
 
 ### Installation
 
