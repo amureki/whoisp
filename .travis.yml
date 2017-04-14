@@ -1,0 +1,27 @@
+language: python
+python:
+- '3.5'
+- '3.6'
+before_install:
+- sudo apt-get -qq update
+- sudo apt-get install -y whois
+install: pip install tox-travis
+script:
+- tox
+branches:
+  only:
+  - master
+matrix:
+  fast_finish: true
+  include:
+  - python: 3.5
+    env: TOXENV=flake8
+deploy:
+  provider: pypi
+  user: amureki
+  password:
+    secure: vwS/QJjWFrLNzDFYAEWhmnxx5NZfm4R2BNR/gK7iSNnQMdKVAXrjOlx7aYTJ8EeknQXJbza+Jdn8t2V5mvd6VZFngzkkP5+AoqqBo7Mh3eR4GsSkgYRg9eR9lJbEiVrlOEUXIGiyIrW2MGPdfeh+Fvw11Gsukmxmq3DrPawx+/AQ+yPWgUxNGB2jeivgHhE16KckrlKfKFTXN0IfO1uTcozJPAqfRJf+IFk7O1iXlRHncxOyU8uyKbNsChlQbajnDx+kJoMSoSQyIrwAxoL2tHGFT/TAcw3DzljTgmjLooKW+zaHWpSUbs3MFK/YnV4W50HqD0ssCpQQ6eXSwd+bx8wv+2f95AijUy5NlvOGewiWHg7qcY73WfCE8w0f8VtfKeskwePVWHmyKdIyoFKbMpMFsmsPHCH7Dgp8q4qTmZUgHi2/KkX28+SGL3rHTfngOTKIjGCNIub4onKBxrWEWrx5V4tuSvQqddHX2cwvs4WvWFIZ1voCaCEZ5D6Am3CeST3MgRBCRTcZ9+yEZjShyRnSo5QGAf8cmX8XK9+dYnGS5mFHedKV36OI7PAzggi11kZwCIkQmgF5isk7Qkw3ky9EQ0jbSQwb2Ite3p1Th791q82GwPZB4Z1AuC6V4MXU6WfhMCbApKpUgQb0VBJfzUvf4EIfO9bBwcULIq7ImXs=
+  on:
+    tags: true
+    python: 3.6
+    distributions: sdist bdist_wheel
