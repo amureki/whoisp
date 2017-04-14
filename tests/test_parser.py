@@ -7,7 +7,7 @@ from whoisp.parser import MainParser
 TEST_DATA_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'test_data')
 
 
-def domain_list() -> list:
+def domain_list():
     domains = [domain for domain in os.listdir(TEST_DATA_PATH) if not domain.startswith('.')]
     return domains
 

@@ -24,7 +24,6 @@ setup(
     ],
     url='https://github.com/amureki/whoisp.git',
     packages=['whoisp'],
-    include_package_data=True,
     zip_safe=False,
     keywords='domain,whois',
     test_suite='tests',
