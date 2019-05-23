@@ -1,7 +1,7 @@
 -e git+https://github.com/FalconSocial/pre-commit-python-sorter.git@b57843b0b874df1d16eb0bef00b868792cb245c2#egg=pre-commit-python-sort
 -e .
 appdirs==1.4.3
-aspy.yaml==0.3.0
+aspy.yaml==1.3.0
 cached-property==1.3.0
 click==6.7
 coverage==4.4.1
