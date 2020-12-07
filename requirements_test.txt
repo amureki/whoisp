@@ -23,7 +23,7 @@ pytest==3.2.1
 pyyaml==3.12
 six==1.10.0
 tox==2.7.0
-virtualenv==15.1.0
+virtualenv==20.2.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
