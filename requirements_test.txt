@@ -12,7 +12,7 @@ mccabe==0.6.1
 nodeenv==1.2.0
 packaging==16.8
 pep8-naming==0.4.1
-pip-tools==1.9.0
+pip-tools==5.5.0
 pluggy==0.4.0
 pre-commit==0.17.0
 py==1.4.34
